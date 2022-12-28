@@ -1,0 +1,80 @@
+table{
+			 width:90%;
+             table-layout: center;
+             background-color: rgba(56, 62, 97, 0.7);
+          }
+
+
+
+.center {
+            background-color:#000;
+            position: center;
+            top:20%;
+            font-size: 22px;
+            padding: 10px;
+            color: #fff;
+            opacity: 85%;
+            font-size: 20px;
+			margin-left: auto;
+			margin-right: auto;
+          }
+
+body  {
+			background-image: url("../../assets/admin.jpg");
+			margin: 0;
+			padding: 0;
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			font-family: sans-serif;
+}
+
+ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+}
+
+li {
+			float: right;
+}
+
+li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+}
+
+li a:hover {
+			background-color: #111;
+}
+
+.active {
+			background-color: #04AA6D;
+}
+
+h2{
+			color:white;
+}
+
+td{
+	text-align:center;
+}
+
+button {
+	background-color: #3944BC;
+	border: none;
+	color: white;
+	padding: 8px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 2px 2px;
+	cursor: pointer;
+	border-radius: 8px;
+}

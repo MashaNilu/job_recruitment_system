@@ -1,0 +1,145 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(assets/mainImage.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+  span,h1,h2,h3, h4, h5, h6{
+      margin: 0;
+      font-size: 100%;
+      font: Roboto;
+      animation-duration: 5s;
+      }
+      
+      header{
+          text-align: center;
+          font-family: 'Courier New', Courier, monospace;
+      }
+  
+      ul{
+          list-style-type: none;
+      }
+  
+      li{
+          display:inline;
+      }
+      hr{
+          width:60%;
+          border-top: 1px solid  #B2BABB ;
+          margin-left:20%;
+      
+      }
+  
+  
+      /* list */
+      a:link {
+          text-decoration: none;
+        }
+        
+        a:visited {
+          text-decoration: none;
+        }
+        
+        a:hover {
+          text-decoration: underline;
+        }
+        
+        a:active {
+          text-decoration: underline;
+        }
+      
+        button{
+          background-color:#B2BABB ;
+          border: none;
+          border-radius: 4px;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+  
+        /* defined */
+  
+        .top-topic{
+            margin: 5px;
+            text-align: center;
+            font-size: 90px;
+            text-shadow: 5px 5px 7px lightblue;
+            
+        }
+  
+        .middle{
+          font-size: 30px;
+          font-weight: bold;
+          color: silver ;
+        }
+  
+        .div1{
+          width: 50%;
+          border: 2px solid #B2BABB ;
+          border-radius: 4px;
+          padding: 50px;
+          margin: 10px;
+          margin-left: 20%;
+        }
+  
+        .div2{
+          width: 0px;
+          height: 0px;
+          background: #B2BABB ;
+          position: relative;
+          opacity: 0.5;
+          
+        }
+        
+        .navbar{
+          height:50px;
+		  opacity: 80%;
+          background-color: transparent;
+      }
+     
+        .navbar-text{
+              float: right;
+              padding: 15px;
+              font-size: 17px;
+			  font-weight: 900;
+              font-family: 'Courier New', Courier, monospace;
+              color: #fff;
+          }
+          .navbar-text:hover{
+            color: lightblue;
+            text-decoration: none;
+          }
+  
+        .vl{
+          border-left: 2px solid #B2BABB ;
+          border-radius: 4px;
+            height: 50px;
+          margin-left: 50%;
+        }
+       
+        .button-style{
+          background-color: #0492c2;
+		  opacity: 80%;
+          color: #fff ; 
+        }
+  
+        .button-style:hover{
+          background-color: #fff ;
+          color: #0492c2;
+          opacity: 80%;
+        }
+
+        .help-button{
+          background-color:transparent;
+          padding: 20px;
+          font-size: 15px;
+          font-family: 'Courier New', Courier, monospace;
+          color: white;
+          text-decoration: none;
+          text-decoration-color: #3D4F36; 
+        }

@@ -1,0 +1,111 @@
+body{
+    background: url("../../assets/RegisterCan.jpg");
+    margin: 0;
+    padding: 0;
+    background-size:cover;
+
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+      height:50px;
+      opacity: 80%;
+      background-color: #000;
+      text-align: center;
+}
+     
+.navbar-text{
+      float: right;
+      padding: 15px;
+      font-size: 17px;
+      font-weight: 900;
+      font-family: 'Courier New', Courier, monospace;
+      color: #fff;
+ }
+          
+.navbar-text:hover{
+      color: lightblue;
+      text-decoration: none;
+}
+
+.navbar-topic{
+    color: white;
+    font-size: 35px;
+    float: none;
+}
+
+.navbar-welcome{
+    float: left;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+
+.find input{
+    opacity: 50%;
+    display: inline-flex;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    width:400px;
+}
+
+.status1 {
+    display: inline-block;
+}
+
+.card {
+    margin:20px;
+    display:inline-block;
+    background-color:#000;
+    color: #fff;
+    opacity: 90%;
+    border-radius: 5px;
+    width:200px;
+    height:330px;
+    box-shadow:slategrey 5px 5px 15px ;
+    cursor: pointer;
+}
+.card:hover {
+    box-shadow: slategrey 5px 5px 15px;
+    transform:scale(1.1);
+}
+
+.photo img{
+    width:100%;
+    height:100px;
+    border-radius: 5px 5px 0px 0px;
+    align-items: center;
+    opacity: 100%;
+}
+
+.description {
+    text-align: center;
+    font-size: 15px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #0492c2;
+    padding: 10px;
+    margin: 20px;
+    color:  white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: darkblue;
+    color: white;
+    box-shadow:slategrey 5px 5px 15px ;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
